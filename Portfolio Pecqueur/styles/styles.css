@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+  font-family: "Inter", sans-serif;
+  background-color: #000;
+}
+
+.slider{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.slider-background{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slider-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+h1{
+    color: #FFF;
+    font-size: 5rem;
+}
+
+h2{
+    font-size:3rem;
+    margin-bottom:20px;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 10px 0 0;
+    text-align: center;
+    color: #FFF;
+}
+
+
+p{
+    font-size: 1.5rem;
+    line-height:1em;
+}
+
+.slider-content p{
+    color: #000000;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.section{
+    background-color: #000;
+    color: #FFF;
+    padding: 30px 0;
+
+}
+
+.boxed{
+    max-width: 1280px;
+    margin-inline:auto;
+}
+.flex{
+    display: flex;
+}
+
+.dark{
+    background: #000;
+    color: #FFF;
+}
+
+.w40{
+    width:40%;
+}
+
+.w60{
+    width:60%;
+}
+
+.w32{
+    width: 32%;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.w25{
+    width: 25%;
+}
+
+.gap20{
+    gap: 10px;
+}
+
+.skill{
+    background: #333;
+    border-radius:15px;
+    padding: 20px;
+    box-sizing:border-box;
+}
+
+.skill img{
+    width: 100px;
+    height: 100px;
+    aspect-ratio: 1px / 1px;
+    object-fit:contain;
+}
+
+.skill h3{
+    margin-top: 10px;
+}
+
+.label{
+    display: block;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 10 px 0;
+    font-size: 1.5rem;
+}
+
+.icon {
+    display: block;
+    font-size: 2rem;
+    color: #FFF;
+    margin-bottom: 5px;
+}
+
+.value a {
+    text-decoration: none;
+    color: #FFF; 
+    font-weight: 500;
+}
+
+.value a:hover {
+    color: #FFF; 
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+}
+
+.social-icon {
+    width: 32px; 
+    height: 32px;
+    margin-right: 10px;
+}
+
+.label {
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.social-link:hover .social-icon {
+    opacity: 0.8;
+}
+
+.social-link:hover .label {
+    text-decoration: underline;
+}
+
